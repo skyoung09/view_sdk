@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/lego_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.skyoung09.legoimpl.MainActivity">
+
+    <TextView
+            android:id="@+id/lego_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World,...888666!"
+            app:layout_constraintLeft_toLeftOf="@+id/lego_main" app:layout_constraintTop_toTopOf="@+id/lego_main"
+            app:layout_constraintRight_toRightOf="@+id/lego_main"
+            app:layout_constraintBottom_toBottomOf="@+id/lego_main"/>
+    <SeekBar
+            android:layout_width="13dp"
+            android:layout_height="30dp" tools:layout_editor_absoluteX="179dp"
+            tools:layout_editor_absoluteY="379dp" android:id="@+id/seekBar"/>
+    <CheckedTextView
+            android:text="CheckedTextView"
+            android:layout_width="128dp"
+            android:layout_height="20dp"
+            tools:layout_editor_absoluteY="493dp" android:id="@+id/checkedTextView"
+            app:layout_constraintLeft_toLeftOf="@+id/seekBar" app:layout_constraintRight_toLeftOf="@+id/seekBar"/>
+    <CheckBox
+            android:text="CheckBox"
+            android:layout_width="110dp"
+            android:layout_height="49dp" tools:layout_editor_absoluteX="111dp"
+            tools:layout_editor_absoluteY="113dp" android:id="@+id/checkBox"/>
+    <ProgressBar
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            tools:layout_editor_absoluteX="166dp" android:id="@+id/progressBar"
+            app:layout_constraintBottom_toTopOf="@+id/checkBox" android:layout_marginBottom="40dp"/>
+    <ProgressBar
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="81dp" tools:layout_editor_absoluteY="-11dp" android:id="@+id/progressBar2"/>
+
+</android.support.constraint.ConstraintLayout>

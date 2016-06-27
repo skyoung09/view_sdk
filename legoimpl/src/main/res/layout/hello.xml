@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@color/colorPrimaryDark"
+              android:padding="12dp"
+              android:layout_marginTop="12dp"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RatingBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/ratingBar"/>
+    <RadioButton
+            android:text="RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/radioButton"/>
+    <TextView
+            android:background="@android:color/background_dark"
+            android:textColor="@android:color/white"
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView"/>
+    <CheckedTextView
+            android:text="CheckedTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/checkedTextView2"/>
+    <Button
+            android:text="Button3333123"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/button"/>
+    <ProgressBar
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar3"/>
+    <CheckedTextView
+            android:text="CheckedTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/checkedTextView3"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView2"/>
+    <Button
+            android:text="Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/button2"/>
+    <CheckedTextView
+            android:text="CheckedTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/checkedTextView4"/>
+    <ProgressBar
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar4"/>
+</LinearLayout>
